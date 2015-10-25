@@ -1,0 +1,5 @@
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

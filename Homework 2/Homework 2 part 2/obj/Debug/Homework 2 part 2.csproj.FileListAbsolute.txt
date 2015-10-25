@@ -1,0 +1,5 @@
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\Homework 2 part 2\bin\Debug\Homework 2 part 2.exe.config
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\Homework 2 part 2\bin\Debug\Homework 2 part 2.exe
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\Homework 2 part 2\bin\Debug\Homework 2 part 2.pdb
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\Homework 2 part 2\obj\Debug\Homework 2 part 2.exe
+C:\Users\Sick\Documents\Homeworks\Programming-Introduction-Courseworks\Homework 2\Homework 2 part 2\obj\Debug\Homework 2 part 2.pdb
