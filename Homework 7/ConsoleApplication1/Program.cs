@@ -23,7 +23,10 @@ namespace ConsoleApplication1
             {
                 for (int j = 0; j < OurArray.GetLength(0); j++)
                 {
-                    Console.WriteLine(OurArray[i,j]%2==0);
+                    if (OurArray[i,j]%2==0)
+                    {
+                        Console.WriteLine(i);
+                    }
 
                 }
             }

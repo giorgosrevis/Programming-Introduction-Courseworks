@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam", "Exam\Exam.csproj", "{8513CB01-8A03-442C-8A6E-F9B26FF20329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aide Pak", "Aide Pak\Aide Pak.csproj", "{C17A953D-7D8A-4701-8B49-AC142A769502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8513CB01-8A03-442C-8A6E-F9B26FF20329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8513CB01-8A03-442C-8A6E-F9B26FF20329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8513CB01-8A03-442C-8A6E-F9B26FF20329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8513CB01-8A03-442C-8A6E-F9B26FF20329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17A953D-7D8A-4701-8B49-AC142A769502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17A953D-7D8A-4701-8B49-AC142A769502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17A953D-7D8A-4701-8B49-AC142A769502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17A953D-7D8A-4701-8B49-AC142A769502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -11,7 +11,7 @@ namespace Homework_part_3
         static void Main(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
+            int b = 4000;
 
             for (int i = 0; i < a; i++)
             {
