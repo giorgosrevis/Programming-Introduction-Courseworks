@@ -10,18 +10,25 @@ namespace Homework_8_part_1
     {
         static void Main(string[] args)
         {
-            int x = 345;
-            int f = 875;
-            int k = 293;
-            int c = Highest(x, f, k);
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(c);
-            Console.WriteLine(Highest(x, f, k));
-
-            int highest = int.MaxValue;
-            int lowest = int.MinValue;
+            Console.WriteLine(MaxNumber(a, b));
+            MaxNumber(a, b);
         }
-       
+
+        private static int MaxNumber(int a, int b)
+        {
+            if (a > b)
+            {
+                return a;
+
+            }
+
+            else return b;
+        }
     }
+       
+    
 }
-private static int Highest(int firstnumber, int secondnumber, int thirdnumber);

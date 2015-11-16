@@ -10,21 +10,29 @@ namespace NestedLoops
     {
         static void Main(string[] args)
         {
-            int rows = 9;
-		    int cols = 6;
+            Console.Write("Enter a number: ");
+            int n = int.Parse(Console.ReadLine());
+            int[,] arr = new int[5, 6];
 
-            for (int i = 1; i <= rows; i++)
+            for (int i = 0; i < arr.GetLength(0); i++)
             {
-                for (int j = 1; j <= cols; j++)
+
+                for (int a = 0; a < arr.GetLength(1); a++)
                 {
-                    Console.Write("{0} X {1}", i, j);
-                    if (j != cols)
-                    {
-                        Console.Write(" | ");
-                    }
+                    arr[i, a] = n--;
+
+                }
+            }
+            for (int j = 0; j < arr.GetLength(0); j++)
+            {
+                for (int k = 0; k < arr.GetLength(1); k++)
+                {
+                    Console.Write("{0}\t", arr[j, k]);
                 }
                 Console.WriteLine();
             }
         }
     }
 }
+
+

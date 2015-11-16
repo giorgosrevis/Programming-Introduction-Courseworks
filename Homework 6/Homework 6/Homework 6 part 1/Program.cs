@@ -4,28 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_5_part_1
+namespace Homework_6_part_1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] array = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
+            Console.WriteLine("Enter a number: ");
 
-            int sick = array.Sum();
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
 
-            Console.WriteLine(sick);
-
-
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = i * 10;
+            }
+            for (int b = 0; b < arr.Length; b++)
+            {
+                Console.WriteLine(arr[b]);
+            }
 
         }
-
     }
-
-
 }
-
-
-
-
-        

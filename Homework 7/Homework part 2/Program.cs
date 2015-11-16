@@ -10,29 +10,34 @@ namespace Homework_part_2
     {
         static void Main(string[] args)
         {
-            
-            int m = int.Parse(Console.ReadLine());
-            int x = int.Parse(Console.ReadLine());
-            int k = int.Parse(Console.ReadLine());
-            int[,] OurArray = new int[x,k];
 
-            OurArray[ x,k ] = m;
-            OurArray[x, k] = m;
-            OurArray[x, k] = m;
-            OurArray[x, k] = m;
+            int RandomNumber = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < OurArray.GetLength(0); i++)
+            int[,] array = new int[3, 4]
             {
-                for (int j = 0; j < OurArray.GetLength(0); j++)
+                {RandomNumber,RandomNumber,RandomNumber,RandomNumber },
+                {RandomNumber,RandomNumber,RandomNumber,RandomNumber },
+                {RandomNumber,RandomNumber,RandomNumber,RandomNumber }
+            };
+
+
+
+
+            Random Number = new Random();
+            int sum = 0;
+
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    for (int g = 0; g < OurArray.GetLength(0); g++)
-                    {
-                        Console.WriteLine(i);
-                    }
+                    array[i, j] = Number.Next(0, 50);
+                    sum += array[i, j];
+                    Console.WriteLine(array[i, j]);
+
                 }
-            }
-            
                 
+            }
+
 
         }
     }

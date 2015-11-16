@@ -11,32 +11,37 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            int[,] OurArray = new int[,]
+            int RandomNumber = int.Parse(Console.ReadLine());
+
+            int[,] array = new int[RandomNumber, RandomNumber];
+
+            Random Number = new Random();
+
+            int sum = 0;
+
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                {32,26,7,597,562,575,434,8565,4313,64,4,6 },
-
-                {2,3,43,6,43,23,6,88,4,42,3,78 }
-            };
-
-
-            for (int i = 0; i < OurArray.GetLength(0); i++)
-            {
-                for (int j = 0; j < OurArray.GetLength(0); j++)
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    if (OurArray[i,j]%2==0)
+                    array[i, j] = Number.Next(0, 20);
+
+                    sum += array[i, j];
+
+                    if (array[i,j]%2==0)
                     {
-                        Console.WriteLine(i);
+                        Console.WriteLine(array[i,j]);
                     }
+
 
                 }
             }
-            ;
-            
-
-            
-           
-
-
         }
+
+
+
+
     }
+
 }
+    
+

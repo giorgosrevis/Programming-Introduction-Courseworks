@@ -4,33 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_5_part_2
+namespace Homework_6_part_2
 {
     class Program
     {
         static void Main(string[] args)
-        { int num = int.Parse(Console.ReadLine());
+        {
+            int lenght = int.Parse(Console.ReadLine());
+            int[] arr = new int[lenght];
 
-            int first = 1;
+            arr[0] = 1;
+            arr[1] = 1;
 
-            Console.Write("{0}", first);
-
-            int second = 2;
-
-            Console.Write("{0}", first);
-
-            int sum = 0;
-
-            while (sum <= num)
-
+            for (int i = 2; i < arr.Length; i++)
             {
-                sum = first + second;
-
-                Console.Write("{0}", sum);
-
-                first = second;
-                second = sum;
-
+                arr[i] = (arr[i - 1] + arr[i - 2]);
+            }
+            for (int a = 0; a < arr.Length; a++)
+            {
+                Console.WriteLine(arr[a]);
             }
         }
     }

@@ -1,6 +1,0 @@
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\bin\Debug\Homework 5 part 1.exe.config
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\bin\Debug\Homework 5 part 1.exe
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\bin\Debug\Homework 5 part 1.pdb
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\obj\Debug\Homework 5 part 1.csprojResolveAssemblyReference.cache
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\obj\Debug\Homework 5 part 1.exe
-C:\Users\Sick\Documents\Homework\Programming-Introduction-Courseworks\Homework 5\Homework 5\Homework 5 part 1\obj\Debug\Homework 5 part 1.pdb

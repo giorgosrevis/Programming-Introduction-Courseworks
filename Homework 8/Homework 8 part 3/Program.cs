@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_part_3
+namespace Homework_8_part_3
 {
     class Program
     {
@@ -12,16 +12,19 @@ namespace Homework_part_3
         {
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= b; i++)
-            {
-                if (i % 3 == 0)
-                {
-                    Console.WriteLine(i);
-                }
+            int c = int.Parse(Console.ReadLine());
 
-            }
+            Console.WriteLine(sum(a, b, c));
 
+            sum(a, b, c);
+        }
+
+        static int sum(int a, int b, int c)
+        {
+            int sum = a * b * c;
+            return sum;
 
         }
     }
+    
 }
